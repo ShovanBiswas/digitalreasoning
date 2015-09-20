@@ -23,6 +23,7 @@ public class DictionaryManager {
 
 	Map<String, String> buildDictionary(String fileContent) throws IOException {
 
+		//
 		Map<String, String> dictionaryContent = new HashMap<String, String>();
 
 		for (String line : fileContent.split("\\n")) {
